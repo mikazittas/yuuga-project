@@ -16,7 +16,7 @@ function validar() {
 const button = document.getElementById("criar__conta");
 
 button.addEventListener("click", function () {
-    window.location.href = "produtos.html";
+    window.location.href = "conta.html";
 })
 
 const form = document.querySelector("form")
