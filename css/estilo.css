@@ -7,7 +7,6 @@
 
 body {
     background-color: #000;
-    ;
 }
 
 section {
@@ -25,14 +24,7 @@ section {
     margin-top: 20px;
 
 }
-.container__text__sobre p{
-    color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Kokoro;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 #produtos {
     padding: 20px 36px 50px;
@@ -40,7 +32,6 @@ section {
 }
 
 #contato {
-    padding: 40px;
     display: flex;
     flex-direction: column;
     /* Empilhar os elementos verticalmente */
@@ -50,7 +41,11 @@ section {
     /* Centralizar o texto dentro do container */
 
 }
-
+ul{
+    
+    list-style-type: none;
+  
+}
 nav {
     background-color: black;
     width: 100%;
@@ -144,6 +139,22 @@ input {
 }
 
 
+#slideshoww{
+    width: 100%;
+    height: 740px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    object-fit:cover;
+    
+}
+
+
+.slide__showww{
+    height: 600px;
+    width: 100%;
+   
+}
+
 /* posicionamento do carrosel*/
 
 
@@ -232,8 +243,11 @@ input {
     flex-wrap: wrap;
 
 }
-
+.card p{
+    font-family: 'Kumbh Sans', sans-serif;
+}
 .container__cards {
+    padding-top: 25px;
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
@@ -268,20 +282,29 @@ input {
     outline: none;
     cursor: pointer;
 }
+.card1 button {
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border: 0 transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0px 0px 20px 20px;
+}
 
 .card1 {
     width: 220px;
     height: 340px;
-    border: 2px solid;
+    
 
 }
+
+
 
 .card1 img {
-    border-radius: 10%;
-}
-
-.card img {
     border: 0px transparent;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .carousel__slides1 {
@@ -317,18 +340,29 @@ input {
     object-position: center;
 }
 
+.card__link,
+.card__imagee {
+    width: 100%;
+    height: 90%;
+}
+
+.card__imagee {
+    object-fit: cover;
+    object-position: center;
+}
+
 
 
 
 
 .demonstraçãoo {
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     /* Exibe os filhos em coluna */
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
 
 
 
@@ -349,16 +383,18 @@ input {
 
 }
 
-.paralax {
+.paralaxx {
     width: 100%;
     height: 350px;
-    background: #181818;
-    border: 0px transparent;
     display: block;
-
-    background-image: url(parallax.jpg);
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
+}
+.paralax img{
+    width: 100%;
+    height: 350px;
+
 }
 
 
@@ -366,6 +402,29 @@ input {
     width: 100%;
     height: 700px;
     background: #181818;
+    display: flex;
+    
+}
+.img__sobre{
+    width: 900px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+.img__sobre img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.container__text__sobre p{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .container__text__sobre {
@@ -426,19 +485,19 @@ input {
 }
 
 .calça {
-    padding: 10px 10px;
+    padding: 10px 30px;
     font-family: 'Kumbh Sans', sans-serif;
     color: white;
 }
 
 .camisas {
-    padding: 10px 10px;
+    padding: 20px 30px;
     font-family: 'Kumbh Sans', sans-serif;
     color: white;
 }
 
 .acessorios {
-    padding: 10px 10px;
+    padding: 20px 30px;
     font-family: 'Kumbh Sans', sans-serif;
     color: white;
 }
@@ -552,6 +611,7 @@ input {
     justify-content: space-around;
     padding: 80px;
     align-items: center;
+    gap:20px;
 }
 .accordion {
     background-color: #ff0000;
@@ -573,21 +633,31 @@ input {
   }
   
   .panel {
-    padding: 0 18px;
+    padding: 20px;
     display: none;
     background: #131313;
     overflow: hidden;
     width: 300px;
+    
+   
   }
   .panel h2{
     color: white;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 200;
     font-size: 15px;
+    padding-left: 20px;
   }
   .panel img{
-    width: 10px;
+    width: 20px;
+    
   }
+  .panel .contatos__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Ajuste conforme necessário para o espaçamento desejado */
+}
+
 .botao__saber{
     width: 100%;
     display: flex;
@@ -612,4 +682,64 @@ input {
     padding: 20px;
     font-size: 16px;
     font-weight: 200;
+    
+}
+li::marker{
+    display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .caixa input{
+        display: none;
+    }
+    .item{
+        font-size: 15px;
+
+    }
+    nav ul{
+        gap: 15px
+    }
+    .logo{
+        width:75px;
+        height: 85px;
+    }
+    .lupa{
+        display: none;
+    }
+    nav{
+        padding: 0px;
+    }
+    li::marker{
+        display: none;
+    }
+    .container__text__sobre p{
+        font-size: 15px;
+        padding:0;
+    }
+    .container__text__sobre{
+        padding: 10px;
+    }
+    .img__sobre{
+        width: 200px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        padding: 280px 00px 10px 10px;
+    
+    }
+    .container__sobre {
+        width: 100%;
+        height: 400px;
+        background: #181818;
+        display: flex;
+        
+    }
+    .img__sobre{
+        width: 230px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        padding: 130px 0px 10px 10px;
+    
+    }
 }

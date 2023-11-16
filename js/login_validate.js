@@ -6,7 +6,7 @@ function validar() {
     /*fazendo  if e else para validar os campos */
     if (usuario == 'Admin' && senha == '123456') {
         //chama a tela do index
-        window.location.href = ('/produtos.html');
+        window.location.href = ('/principal.html');
 
     } else {
         alert('usuário ou senha inválidos');

@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+#home {
+    box-sizing: border-box;
+    padding: 100px 0px 50px;
+    scroll-behavior: smooth;
+
+}
+
+ul{
+    
+    list-style-type: none;
+  
+}
+nav {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    box-shadow: 0px 3.66337px 3.66337px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    z-index: 50;
+
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 20px;
+    height: 20px;
+}
+
+.item {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.container__pesquisar {
+    right: 10px;
+    position: absolute;
+    gap: 10px;
+    width: auto;
+    height: 50px;
+    align-items: center;
+    display: flex;
+
+}
+
+.caixa {
+    display: flex;
+    border-radius: 5px;
+    border: 0px transparent;
+    outline: none;
+}
+
+.lupa {
+    width: 25px;
+    height: 25px;
+}
+
+.sacola {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.caixa input {
+    width: 120px;
+    height: 20px;
+    color: black;
+    border-radius: 7px;
+    border: 0px transparent;
+    display: flex;
+    outline: none;
+    padding-left: 5px;
+
+}
+
+input {
+    color: black;
+}
+
+.container__acima{
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    display:flex;
+    padding: 50px;
+    gap: 100px;
+}
+.container__image{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+
+}
+.container__image img{
+    
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    
+
+
+}
+.card p{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container__info{
+    gap: 50px;
+    background-color: #202020;
+    width: 400px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+ 
+}
+.container__descricao{
+    width:90%;
+    height: auto;
+    background-color: #202020;
+    color: white;
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: fit-content;
+    background-color: #1F1F1F;
+    padding: 40px;
+    border-radius: 12px;
+    border: 0 transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.container__cards {
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.card {
+    width: 220px;
+    height: 360px;
+    background-color: #343434;
+    border: 0px transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card p {
+    color: white;
+    padding-bottom: 9px;
+}
+
+.card button {
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border: 0 transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.card__link,
+.card__image {
+
+    width: 100%;
+    height: 80%;
+}
+
+.card__image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.demonstraçãoo {
+    display: flex;
+    flex-direction: column;
+    /* Exibe os filhos em coluna */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+.demonstração {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.demonstração__linha {
+    background-color: red;
+    width: 220px;
+    height: 3px;
+    display: flex;
+
+
+}
+.comprar{
+    width: 90%;
+    background: red;
+    color: white; 
+    height: 50px;
+    text-align: center;
+    border: 0 transparent;
+    cursor: pointer;
+}
+.comprar:hover{
+    background-color: #ad2323; 
+    transition: 0.3s;
+}
+.footer{
+    background-color:  #131313;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.footer h2{
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    
+}
+li::marker{
+    display: none;
+}
+
+@media screen and (max-width: 700px) and (min-width: 0px){
+    .caixa input{
+        display: none;
+    }
+    .item{
+        font-size: 15px;
+
+    }
+    nav ul{
+        gap: 15px
+    }
+    .logo{
+        width:75px;
+        height: 85px;
+    }
+    .lupa{
+        display: none;
+    }
+    nav{
+        padding: 0px;
+    }
+    li::marker{
+        display: none;
+    }
+}
