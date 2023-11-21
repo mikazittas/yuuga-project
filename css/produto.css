@@ -79,10 +79,25 @@ nav ul {
     outline: none;
 }
 
-.lupa {
+.lupa1 {
     width: 25px;
     height: 25px;
 }
+.lupa2{
+    display: none;
+}
+.sacola1{
+    display:none;
+}
+.light{
+    cursor: pointer;
+    width: 50px
+}
+.dark{
+    cursor: pointer;
+    width: 50px;
+}
+
 
 .sacola {
     width: 30px;
@@ -294,6 +309,63 @@ input {
 }
 li::marker{
     display: none;
+}
+.logo2{
+    display: none;
+
+}
+.modo-dark{
+    background-color: white;
+}
+.modo-dark .demonstração{
+    color: black
+}
+.modo-dark{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    
+}
+.modo-dark .logo{
+    display: none;
+
+}
+.modo-dark nav{
+    background: white;
+
+
+}
+.modo-dark .item{
+    color: black;
+}
+
+.modo-dark .sacola1{
+    display:flex;
+    width: 30px;
+    margin-top: -5px;
+}
+.modo-dark .sacola{
+    display:none;
+
+}
+.modo-dark .lupa1{
+    display:none;
+}
+.modo-dark .lupa2{
+    display: flex;
+    width: 30px
+}
+
+
+.modo-dark .caixa input{
+    background: black;
+    color: white;
+}
+.modo-dark .logo2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left:-19px;
 }
 
 @media screen and (max-width: 700px) and (min-width: 0px){
