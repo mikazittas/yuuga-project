@@ -94,10 +94,16 @@ nav ul {
     width: 50px
 }
 .dark{
+    display:none
+}
+.modo-dark .dark{
+    display:inline;
     cursor: pointer;
     width: 50px;
 }
-
+.modo-dark .light{
+    display:none;
+}
 
 .sacola {
     width: 30px;
@@ -320,7 +326,7 @@ li::marker{
 .modo-dark .demonstração{
     color: black
 }
-.modo-dark{
+.modo-dark body{
     background-color: white;
     color: black;
     transition: 1s;
