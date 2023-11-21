@@ -1,0 +1,10 @@
+# yuuga-project
+
+SITE DE ROUPA DE GRIFE 
+
+feito por:
+
+<p>ALEXANDRE LUIZ TEIXEIRA</p>
+<p>ARTHUR QUINTINO DE SANTANA</p>
+<p>GILSON GOMES DA SILVA (parcialmente)</p>
+<p>HENRY MORIKATSU HIRAMATSU</p>
