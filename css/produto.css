@@ -135,24 +135,26 @@ input {
     display:flex;
     padding: 50px;
     gap: 100px;
+
 }
 .container__image{
     background-color: white;
     width: 500px;
-    height: 500px;
     object-fit: cover;
 
 
 }
 .container__image img{
-    
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    
-
-
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
+    
+
+
+
 .card p{
     font-family: 'Kumbh Sans', sans-serif;
 }

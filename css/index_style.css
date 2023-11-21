@@ -53,7 +53,7 @@ body{
 
 .login_body input {
     height: 60px;
-    width: 300px;
+    width: 100%;
     color: #fff;
     background-color: #212121;
     border: none;
@@ -71,13 +71,13 @@ body{
 
 .input_box {
     margin-bottom: 25px;
-    width: 250px;
+    width: 90%;
 }
 
 .login_body button.submit {
     margin-top: 60px;
     height: 50px;
-    width: 100%;
+    width: 90%;
     color: #fff;
     background-color: #FF0000;
     font-weight: bold;
@@ -89,23 +89,28 @@ body{
 .login_body button.submit:hover {
     background-color: #490000;
     cursor: pointer;
+    transition: 0.3s;
 }
-
+.login_box{
+    width: 100%
+}
 .login_body button.submitaccount {
     height: 50px;
-    width: 100%;
+    width: 90%;
     color: #000;
     background-color: #f1f1f1;
     font-weight: bold;
     font-size: 16px;
     border: none;
     margin-bottom: 10px;
+    
 
 }
 
 .login_body button.submitaccount:hover {
     background-color: #9b9b9b;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .support {
