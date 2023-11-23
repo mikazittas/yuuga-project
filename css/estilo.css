@@ -619,6 +619,7 @@ input {
     background-color: red;
     color: white;
     border: 0 transparent;
+    cursor: pointer;
 
 
 }
