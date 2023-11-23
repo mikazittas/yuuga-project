@@ -373,7 +373,6 @@ li::marker{
     display: flex;
     width: 100px;
     height: 100px;
-    margin-left:-19px;
 }
 
 @media screen and (max-width: 700px) and (min-width: 0px){
@@ -388,8 +387,12 @@ li::marker{
         gap: 15px
     }
     .logo{
-        width:75px;
-        height: 85px;
+        width:70px;
+        height:70px;
+    }
+    .modo-dark .logo2{
+        width:70px;
+        height:70px;
     }
     .lupa{
         display: none;
@@ -399,5 +402,8 @@ li::marker{
     }
     li::marker{
         display: none;
+    }
+    .container__pesquisar{
+        display:None;
     }
 }
